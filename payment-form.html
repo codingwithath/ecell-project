@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">    
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+
+    <title>E-Summit Tickets</title>
+</head>
+
+<body>
+    <form action="">
+        <div class="background"><h1><strong>E-Summit Tickets</strong><br></h1>
+        </div>
+        <h2><b>Contact information</b></h2>
+        <p><h3>Fields Denoted by ' * ' are Mandatory</h3></p>
+        <br>
+        <p><b>Name*</b>: <input type="text" name="name" required></p>
+
+        <fieldset>
+            <legend><h3>*Gender*</h3> </legend>
+            <p>Male <input type="radio" name="gender" id="male" required></p>
+            <p>Female <input type="radio" name="gender" id="female" required></p>
+        </fieldset>
+
+            <p><b>Address:</b> <br><textarea name="address" id="address" cols="50" rows="3"></textarea><address></address></p>
+            <p><b>Email:</b> <input type="email" name="email" id="email"></p>
+            <p><b>Pincode:</b> <input type="number" name="pincode" id="pincode"></p>
+
+            <h2>Payment Details</h2>
+            <p><b>Card type:</b> 
+                <select name="card_type" id="card_type">
+                    <option value="">Please Select your Credit Card Type</option>
+                    <option value="Visa">Visa</option>
+                    <option value="Maestro">Maestro</option>
+                    <option value="Master Card">Master Card</option>
+
+                </select>
+            </p>
+
+            <p><b>Card Number</b> <input type="number" name="card_number" id="card_number"></p>
+            <p><b>Expiration</b> <input type="date" name="date" id="date"></p>
+            <p><b>CVV</b> <input type="password" name="CVV" id="CVV"></p>
+            <input type="submit" value="Pay Now">
+
+    </form>
+    
+</body>
+</html>

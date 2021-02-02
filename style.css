@@ -1,0 +1,18 @@
+
+h1{
+    color: rgb(0, 0, 0);
+    font-weight: 10000;
+    font-size: 50px;
+    font-family: 'Pacifico', 'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+.background{
+    background-image: url("pngtree-shading-background-abstract-colorful-background-colorful-art-image_22644.jpg");
+    background-attachment:inherit;
+    
+}
+body {
+background-image: url(image3.jpg);
+background-size: 100% 700px;
+}
